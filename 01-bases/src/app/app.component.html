@@ -1,5 +1,23 @@
 <!-- mostrar elementos del archivo app.ts -->
-<p>{{ title }}</p>
+<h1>{{ title }}</h1>
 
 
+
+<br />
+
+<!-- para los eventos se usan los parentesis -->
+<!-- <button (click)="subtract()">+1</button>
 <span>{{ num_count }}</span>
+<button (click)="addition()">-1</button> -->
+
+<br />
+
+<span>La base es: {{ base }}</span>
+
+<!-- ejercicio 2 -->
+<button (click)="acumulation(base)">+5</button>
+<span>{{ num_count }}</span>
+<button (click)="acumulation(-base)">-5</button>
+
+<app-counter></app-counter>
+<heroe-component></heroe-component>
