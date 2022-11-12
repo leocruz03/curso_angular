@@ -1,0 +1,10 @@
+<p>list of heros</p>
+
+
+<ul *ngFor="let h of heros">
+    <li>{{ h }}</li>
+</ul>
+
+<button (click)="deleteHero()">
+    delete
+</button>
