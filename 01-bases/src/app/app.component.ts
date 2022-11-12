@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'bases';
+  title = 'Contador App';
+
+  /* variable para el contador */
+  public num_count: number = 0;
 }
